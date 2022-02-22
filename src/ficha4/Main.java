@@ -14,5 +14,11 @@ public class Main {
 		cesto1.addFruta(maca1);
 		cesto1.addFruta(maracuja1);
 
+		System.out.println("o tamanho do cesto é " + cesto1.getTotalItems());
+		System.out.println("O valor total do cesto é: " + cesto1.valorCesto());
+		System.out.println("o cesto contém " + cesto1.contaTipo("FrutaUnidade") + " frutas do tipo FrutaUnidade");
+		System.out.println("o cesto contém " + cesto1.contaTipo("FrutaPeso") + " frutas do tipo FrutaPeso");
+		System.out.println("o cesto contém " + cesto1.contaTipo("FrutaVolume") + " frutas do tipo FrutaVolume");
 	}
+
 }

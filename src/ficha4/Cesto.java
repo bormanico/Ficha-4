@@ -22,8 +22,10 @@ public class Cesto {
 	}
 
 	public void addFruta(Fruta aFruta) {
-		listaCesto.add(aFruta);
-		totalItems++;
+		if (listaCesto.size() < limite) {
+			listaCesto.add(aFruta);
+			totalItems++;
+		}
 	}
 
 	public double valorCesto() {
