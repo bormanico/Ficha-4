@@ -1,16 +1,38 @@
 package ficha4;
 
-public class FrutaVolume extends Fruta {
+public class FrutaVolume extends Fruta implements Descontavel {
 
 	private double volume;
+	private double percentagemDesconto;
 
 	public FrutaVolume(String aNome, double aPrecoBase, double aVolume) {
 		super(aNome, aPrecoBase);
-		this.volume = aVolume;
+		volume = aVolume;
+	}
+
+	public double getVolume() {
+		return volume;
+	}
+
+	public void setVolume(double volume) {
+		this.volume = volume;
+	}
+
+	public double getPercentagemDesconto() {
+		return percentagemDesconto;
+	}
+
+	public void setPercentagemDesconto(double percentagemDesconto) {
+		this.percentagemDesconto = percentagemDesconto;
 	}
 
 	public double pagar() {
-		double preco = this.volume * getPrecoBase();
+		double preco = volume * getPrecoBase() - descontar();
 		return preco;
+	}
+
+	@Override
+	public double descontar() {
+		return getPrecoBase() * volume * percentagemDesconto;
 	}
 }

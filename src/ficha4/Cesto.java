@@ -21,6 +21,10 @@ public class Cesto {
 		this.totalItems = totalItems;
 	}
 
+	public List<Fruta> getListaCesto() {
+		return listaCesto;
+	}
+
 	public void addFruta(Fruta aFruta) {
 		if (listaCesto.size() < limite) {
 			listaCesto.add(aFruta);
