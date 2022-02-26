@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_RPANcJbmEeylJu6pn3Oa7A" name="Ficha_4">
+    <eAnnotations xmi:id="_RVM8EJbmEeylJu6pn3Oa7A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_RVM8EZbmEeylJu6pn3Oa7A" source="codegen">
+        <details xmi:id="_RVM8EpbmEeylJu6pn3Oa7A" key="codegenDirectory" value="/Ficha-4/src"/>
+        <details xmi:id="_Rgx58JbmEeylJu6pn3Oa7A" key="AssociatedSourceCode" value="/Ficha-4/src/ficha4/Cesto.java;3463255650/1;/Ficha-4/src/ficha4/Descontavel.java;2666632035/1;/Ficha-4/src/ficha4/Fruta.java;1110451056/1;/Ficha-4/src/ficha4/FrutaPeso.java;337102492/1;/Ficha-4/src/ficha4/FrutaUnidade.java;740414667/1;/Ficha-4/src/ficha4/FrutaVolume.java;2071951732/1;/Ficha-4/src/ficha4/Main.java;1122841644/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_RcTCkJbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTCkZbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTCkpbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTCk5bmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTClJbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTpoJbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTpoZbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTpopbmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_RcTpo5bmEeylJu6pn3Oa7A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RcU3wJbmEeylJu6pn3Oa7A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_RcU3wZbmEeylJu6pn3Oa7A" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RebwkJbmEeylJu6pn3Oa7A" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_RehQIJbmEeylJu6pn3Oa7A" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RcZJMJbmEeylJu6pn3Oa7A" name="ficha4">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Rc1OEJbmEeylJu6pn3Oa7A" name="Cesto">
+        <ownedAttribute xmi:id="_RetdYJbmEeylJu6pn3Oa7A" name="totalItems">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ReuEcJbmEeylJu6pn3Oa7A" name="limite" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ReuEcZbmEeylJu6pn3Oa7A" value="100"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ReurgZbmEeylJu6pn3Oa7A" name="listaCesto" type="_Rc6GkJbmEeylJu6pn3Oa7A" isOrdered="true" isReadOnly="true" association="_Re0yIJbmEeylJu6pn3Oa7A">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ReurgpbmEeylJu6pn3Oa7A" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RexHwJbmEeylJu6pn3Oa7A" name="Cesto" specification="_Rc2cMJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_RexHwZbmEeylJu6pn3Oa7A" type="_Rc1OEJbmEeylJu6pn3Oa7A" direction="return"/>
+          <language>java</language>
+          <body>totalItems = 0;&#xD;
+		listaCesto = new ArrayList&lt;Fruta>(limite);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rexu0JbmEeylJu6pn3Oa7A" name="addFruta" specification="_Rek6gJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rexu0ZbmEeylJu6pn3Oa7A" name="aFruta" type="_Rc6GkJbmEeylJu6pn3Oa7A"/>
+          <language>java</language>
+          <body>if (listaCesto.size() &lt; limite) {&#xD;
+			listaCesto.add(aFruta);&#xD;
+			totalItems++;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rexu0pbmEeylJu6pn3Oa7A" name="valorCesto" specification="_Rc3DQJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rexu05bmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double somaValorCesto = 0;&#xD;
+		for (Fruta fru : listaCesto) {&#xD;
+&#xD;
+			somaValorCesto += fru.pagar();&#xD;
+		}&#xD;
+		return somaValorCesto;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rexu1JbmEeylJu6pn3Oa7A" name="contaTipo" specification="_Rc3DQpbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rexu1ZbmEeylJu6pn3Oa7A" name="tipo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rexu1pbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int contagem = 0;&#xD;
+		for (Fruta fru : listaCesto) {&#xD;
+			if (fru.getClass().getSimpleName().equals(tipo)) {&#xD;
+				contagem++;&#xD;
+			}&#xD;
+		}&#xD;
+		return contagem;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rexu15bmEeylJu6pn3Oa7A" name="valorPorTipo" specification="_Rc3qUZbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rexu2JbmEeylJu6pn3Oa7A" name="tipo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rexu2ZbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int valor = 0;&#xD;
+		for (Fruta fru : listaCesto) {&#xD;
+			if (fru.getClass().getSimpleName().equals(tipo)) {&#xD;
+				valor += fru.pagar();&#xD;
+			}&#xD;
+		}&#xD;
+		return valor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Rc2cMJbmEeylJu6pn3Oa7A" name="Cesto" method="_RexHwJbmEeylJu6pn3Oa7A">
+          <eAnnotations xmi:id="_Rc2cMZbmEeylJu6pn3Oa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Rc2cMpbmEeylJu6pn3Oa7A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Rc2cM5bmEeylJu6pn3Oa7A" type="_Rc1OEJbmEeylJu6pn3Oa7A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rc3DQJbmEeylJu6pn3Oa7A" name="valorCesto" method="_Rexu0pbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rc3DQZbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rc3DQpbmEeylJu6pn3Oa7A" name="contaTipo" method="_Rexu1JbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rc3DQ5bmEeylJu6pn3Oa7A" name="tipo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc3qUJbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rc3qUZbmEeylJu6pn3Oa7A" name="valorPorTipo" method="_Rexu15bmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rc3qUpbmEeylJu6pn3Oa7A" name="tipo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc3qU5bmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rek6gJbmEeylJu6pn3Oa7A" name="addFruta" method="_Rexu0JbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rek6gZbmEeylJu6pn3Oa7A" name="aFruta" type="_Rc6GkJbmEeylJu6pn3Oa7A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Rc44cJbmEeylJu6pn3Oa7A" name="Descontavel">
+        <ownedOperation xmi:id="_Rc44cZbmEeylJu6pn3Oa7A" name="descontar">
+          <ownedParameter xmi:id="_Rc5fgJbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Rc6GkJbmEeylJu6pn3Oa7A" name="Fruta" isAbstract="true">
+        <ownedAttribute xmi:id="_RevSkJbmEeylJu6pn3Oa7A" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RevSkZbmEeylJu6pn3Oa7A" name="precoBase">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ReyV4JbmEeylJu6pn3Oa7A" name="Fruta" specification="_Rc6toJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_ReyV4ZbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ReyV4pbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ReyV45bmEeylJu6pn3Oa7A" type="_Rc6GkJbmEeylJu6pn3Oa7A" direction="return"/>
+          <language>java</language>
+          <body>this.nome = aNome;&#xD;
+		this.precoBase = aPrecoBase;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Rc6toJbmEeylJu6pn3Oa7A" name="Fruta" method="_ReyV4JbmEeylJu6pn3Oa7A">
+          <eAnnotations xmi:id="_Rc7UsJbmEeylJu6pn3Oa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Rc7UsZbmEeylJu6pn3Oa7A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Rc6toZbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc6topbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc7UspbmEeylJu6pn3Oa7A" type="_Rc6GkJbmEeylJu6pn3Oa7A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rc7Us5bmEeylJu6pn3Oa7A" name="pagar" isAbstract="true">
+          <ownedParameter xmi:id="_Rc7UtJbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Rc8i0JbmEeylJu6pn3Oa7A" name="FrutaPeso">
+        <generalization xmi:id="_RepzAJbmEeylJu6pn3Oa7A" general="_Rc6GkJbmEeylJu6pn3Oa7A"/>
+        <ownedAttribute xmi:id="_RevSkpbmEeylJu6pn3Oa7A" name="peso">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Rev5oJbmEeylJu6pn3Oa7A" name="percentagemDesconto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_RepL8JbmEeylJu6pn3Oa7A" client="_Rc8i0JbmEeylJu6pn3Oa7A" supplier="_Rc44cJbmEeylJu6pn3Oa7A" contract="_Rc44cJbmEeylJu6pn3Oa7A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ReyV5JbmEeylJu6pn3Oa7A" name="FrutaPeso" specification="_Rc9J4JbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_ReyV5ZbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ReyV5pbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ReyV55bmEeylJu6pn3Oa7A" name="aPeso">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ReyV6JbmEeylJu6pn3Oa7A" type="_Rc8i0JbmEeylJu6pn3Oa7A" direction="return"/>
+          <language>java</language>
+          <body>super(aNome, aPrecoBase);&#xD;
+		peso = aPeso;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ReyV6ZbmEeylJu6pn3Oa7A" name="pagar" specification="_Rc-YBJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_ReyV6pbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double preco = peso * getPrecoBase() - descontar();&#xD;
+		return preco;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ReyV65bmEeylJu6pn3Oa7A" name="descontar" specification="_Rc-_EZbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_ReyV7JbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return getPrecoBase() * peso * percentagemDesconto;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Rc9J4JbmEeylJu6pn3Oa7A" name="FrutaPeso" method="_ReyV5JbmEeylJu6pn3Oa7A">
+          <eAnnotations xmi:id="_Rc-YAZbmEeylJu6pn3Oa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Rc-YApbmEeylJu6pn3Oa7A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Rc9J4ZbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc9w8JbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc-YAJbmEeylJu6pn3Oa7A" name="aPeso">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rc-YA5bmEeylJu6pn3Oa7A" type="_Rc8i0JbmEeylJu6pn3Oa7A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rc-YBJbmEeylJu6pn3Oa7A" name="pagar" method="_ReyV6ZbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rc-_EJbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rc-_EZbmEeylJu6pn3Oa7A" name="descontar" method="_ReyV65bmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rc-_EpbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RdCpcJbmEeylJu6pn3Oa7A" name="FrutaUnidade">
+        <generalization xmi:id="_RerBIJbmEeylJu6pn3Oa7A" general="_Rc6GkJbmEeylJu6pn3Oa7A"/>
+        <ownedAttribute xmi:id="_Rev5oZbmEeylJu6pn3Oa7A" name="unidade" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rey88JbmEeylJu6pn3Oa7A" name="FrutaUnidade" specification="_RdFFsJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rey88ZbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rey88pbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rey885bmEeylJu6pn3Oa7A" name="aUnidade">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rey89JbmEeylJu6pn3Oa7A" type="_RdCpcJbmEeylJu6pn3Oa7A" direction="return"/>
+          <language>java</language>
+          <body>super(aNome, aPrecoBase);&#xD;
+		unidade = aUnidade;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rey89ZbmEeylJu6pn3Oa7A" name="pagar" specification="_RdG64ZbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rey89pbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double preco = unidade * getPrecoBase();&#xD;
+		return preco;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RdFFsJbmEeylJu6pn3Oa7A" name="FrutaUnidade" method="_Rey88JbmEeylJu6pn3Oa7A">
+          <eAnnotations xmi:id="_RdGT0pbmEeylJu6pn3Oa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RdGT05bmEeylJu6pn3Oa7A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RdFswJbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RdGT0JbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RdGT0ZbmEeylJu6pn3Oa7A" name="aUnidade">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RdG64JbmEeylJu6pn3Oa7A" type="_RdCpcJbmEeylJu6pn3Oa7A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RdG64ZbmEeylJu6pn3Oa7A" name="pagar" method="_Rey89ZbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_RdG64pbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RdHh8JbmEeylJu6pn3Oa7A" name="FrutaVolume">
+        <generalization xmi:id="_ResPQJbmEeylJu6pn3Oa7A" general="_Rc6GkJbmEeylJu6pn3Oa7A"/>
+        <ownedAttribute xmi:id="_RewgsZbmEeylJu6pn3Oa7A" name="volume">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RewgspbmEeylJu6pn3Oa7A" name="percentagemDesconto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_ReroMJbmEeylJu6pn3Oa7A" client="_RdHh8JbmEeylJu6pn3Oa7A" supplier="_Rc44cJbmEeylJu6pn3Oa7A" contract="_Rc44cJbmEeylJu6pn3Oa7A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rey895bmEeylJu6pn3Oa7A" name="FrutaVolume" specification="_RdIJAJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rey8-JbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rey8-ZbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rey8-pbmEeylJu6pn3Oa7A" name="aVolume">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rey8-5bmEeylJu6pn3Oa7A" type="_RdHh8JbmEeylJu6pn3Oa7A" direction="return"/>
+          <language>java</language>
+          <body>super(aNome, aPrecoBase);&#xD;
+		volume = aVolume;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rey8_JbmEeylJu6pn3Oa7A" name="pagar" specification="_RdIwEJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rey8_ZbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double preco = volume * getPrecoBase() - descontar();&#xD;
+		return preco;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rey8_pbmEeylJu6pn3Oa7A" name="descontar" specification="_RdIwEpbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_Rey8_5bmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return getPrecoBase() * volume * percentagemDesconto;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RdIJAJbmEeylJu6pn3Oa7A" name="FrutaVolume" method="_Rey895bmEeylJu6pn3Oa7A">
+          <eAnnotations xmi:id="_RdIJBJbmEeylJu6pn3Oa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RdIJBZbmEeylJu6pn3Oa7A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RdIJAZbmEeylJu6pn3Oa7A" name="aNome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RdIJApbmEeylJu6pn3Oa7A" name="aPrecoBase">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RdIJA5bmEeylJu6pn3Oa7A" name="aVolume">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RdIJBpbmEeylJu6pn3Oa7A" type="_RdHh8JbmEeylJu6pn3Oa7A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RdIwEJbmEeylJu6pn3Oa7A" name="pagar" method="_Rey8_JbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_RdIwEZbmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RdIwEpbmEeylJu6pn3Oa7A" name="descontar" method="_Rey8_pbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_RdIwE5bmEeylJu6pn3Oa7A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RdJ-MJbmEeylJu6pn3Oa7A" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RezkAJbmEeylJu6pn3Oa7A" name="main" specification="_RdKlQJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_RezkAZbmEeylJu6pn3Oa7A" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RezkApbmEeylJu6pn3Oa7A" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Fruta banana1 = new FrutaUnidade(&quot;Banana&quot;, 0.5, 3);&#xD;
+		Fruta maca1 = new FrutaPeso(&quot;Maçã&quot;, 0.9, 1);&#xD;
+		FrutaVolume groselha1 = new FrutaVolume(&quot;Groselha&quot;, 7, .250);&#xD;
+		Fruta maracuja1 = new FrutaUnidade(&quot;Maracujá&quot;, 1.99, 3);&#xD;
+&#xD;
+		Cesto cesto1 = new Cesto();&#xD;
+&#xD;
+		cesto1.addFruta(banana1);&#xD;
+		cesto1.addFruta(groselha1);&#xD;
+		cesto1.addFruta(maca1);&#xD;
+		cesto1.addFruta(maracuja1);&#xD;
+&#xD;
+		System.out.println(&quot;o tamanho do cesto é &quot; + cesto1.getTotalItems());&#xD;
+		System.out.println(&quot;O valor total do cesto é: &quot; + cesto1.valorCesto());&#xD;
+		System.out.println(&quot;o cesto contém &quot; + cesto1.contaTipo(&quot;FrutaUnidade&quot;)&#xD;
+				+ &quot; frutas do tipo FrutaUnidade no valor de &quot; + cesto1.valorPorTipo(&quot;FrutaUnidade&quot;) + &quot; euros.&quot;);&#xD;
+		System.out.println(&quot;o cesto contém &quot; + cesto1.contaTipo(&quot;FrutaPeso&quot;) + &quot; frutas do tipo FrutaPeso no valor de &quot;&#xD;
+				+ cesto1.valorPorTipo(&quot;FrutaPeso&quot;) + &quot; euros.&quot;);&#xD;
+		System.out.println(&quot;o cesto contém &quot; + cesto1.contaTipo(&quot;FrutaVolume&quot;)&#xD;
+				+ &quot; frutas do tipo FrutaVolume no valor de &quot; + cesto1.valorPorTipo(&quot;FrutaVolume&quot;) + &quot; euros.&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;Preço da maçã sem desconto é: &quot; + maca1.pagar());&#xD;
+		/*&#xD;
+		 * downcasting porque o método setPercentagemDesconto não está disponível para a&#xD;
+		 * classe Fruta&#xD;
+		 */&#xD;
+		((FrutaPeso) maca1).setPercentagemDesconto(.15);&#xD;
+&#xD;
+		System.out.println(&quot;Preço da maçã com desconto é: &quot; + maca1.pagar());&#xD;
+&#xD;
+		System.out.println(&quot;Preço da groselha sem desconto é: &quot; + groselha1.pagar());&#xD;
+&#xD;
+		groselha1.setPercentagemDesconto(.251);&#xD;
+&#xD;
+		System.out.println(&quot;Preço da groselha com desconto é: &quot; + groselha1.pagar());&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RdKlQJbmEeylJu6pn3Oa7A" name="main" isStatic="true" method="_RezkAJbmEeylJu6pn3Oa7A">
+          <ownedParameter xmi:id="_RdKlQZbmEeylJu6pn3Oa7A" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RdKlQpbmEeylJu6pn3Oa7A" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Re0yIJbmEeylJu6pn3Oa7A" name="" memberEnd="_Re0yIZbmEeylJu6pn3Oa7A _ReurgZbmEeylJu6pn3Oa7A">
+        <ownedEnd xmi:id="_Re0yIZbmEeylJu6pn3Oa7A" name="" type="_Rc1OEJbmEeylJu6pn3Oa7A" association="_Re0yIJbmEeylJu6pn3Oa7A"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_RVNjIJbmEeylJu6pn3Oa7A">
+      <eAnnotations xmi:id="_RVOKMJbmEeylJu6pn3Oa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_RVOxQJbmEeylJu6pn3Oa7A" base_Package="_RPANcJbmEeylJu6pn3Oa7A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rc_mIJbmEeylJu6pn3Oa7A" base_Element="_Rc-_EZbmEeylJu6pn3Oa7A"/>
+  <UMLLabProfile:Annotations xmi:id="_RdANMJbmEeylJu6pn3Oa7A" base_Element="_Rc-_EZbmEeylJu6pn3Oa7A">
+    <annotations xmi:id="_RdANMZbmEeylJu6pn3Oa7A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RdIwFJbmEeylJu6pn3Oa7A" base_Element="_RdIwEpbmEeylJu6pn3Oa7A"/>
+  <UMLLabProfile:Annotations xmi:id="_RdJXIJbmEeylJu6pn3Oa7A" base_Element="_RdIwEpbmEeylJu6pn3Oa7A">
+    <annotations xmi:id="_RdJXIZbmEeylJu6pn3Oa7A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_RegCAJbmEeylJu6pn3Oa7A" base_Element="_RebwkJbmEeylJu6pn3Oa7A"/>
+  <UMLLabProfile:Reference xmi:id="_RekTcJbmEeylJu6pn3Oa7A" base_Element="_RehQIJbmEeylJu6pn3Oa7A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ReurgJbmEeylJu6pn3Oa7A" base_Element="_ReuEcJbmEeylJu6pn3Oa7A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RewgsJbmEeylJu6pn3Oa7A" base_Element="_Rev5oZbmEeylJu6pn3Oa7A"/>
+  <UMLLabProfile:Reference xmi:id="_Re1ZMJbmEeylJu6pn3Oa7A" base_Element="_Re0yIJbmEeylJu6pn3Oa7A"/>
+</xmi:XMI>

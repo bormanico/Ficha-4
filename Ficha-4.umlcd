@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_RQATAJbmEeylJu6pn3Oa7A">
+  <modelElement href="Ficha-4.uml#_RcZJMJbmEeylJu6pn3Oa7A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VB9hsJbmEeylJu6pn3Oa7A" sourceAnchor="0.0,87.0" targetAnchor="333.0,59.0" target="_VCwL4JbmEeylJu6pn3Oa7A" source="_VB_98JbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_Re0yIJbmEeylJu6pn3Oa7A"/>
+    <stereotypes xmi:id="_VB9hsZbmEeylJu6pn3Oa7A" name="Reference">
+      <modelElement href="Ficha-4.uml#_Re1ZMJbmEeylJu6pn3Oa7A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VB9hspbmEeylJu6pn3Oa7A" text="">
+      <visualProperties xmi:id="_VW7FEJbmEeylJu6pn3Oa7A" position="6.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VB9hs5bmEeylJu6pn3Oa7A" aggregationKind="NONE" name="">
+      <modelElement href="Ficha-4.uml#_Re0yIZbmEeylJu6pn3Oa7A"/>
+      <visualProperties xmi:id="_VW6eA5bmEeylJu6pn3Oa7A" position="-20.0,3.0"/>
+      <visibility xmi:id="_VB9htJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB9htZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VB9htpbmEeylJu6pn3Oa7A" aggregationKind="NONE" name="listaCesto" navigable="true">
+      <modelElement href="Ficha-4.uml#_ReurgZbmEeylJu6pn3Oa7A"/>
+      <visualProperties xmi:id="_VW7sIJbmEeylJu6pn3Oa7A" position="5.0,-49.0"/>
+      <visibility xmi:id="_VB9ht5bmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB9huJbmEeylJu6pn3Oa7A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VDRJQJbmEeylJu6pn3Oa7A" sourceAnchor="276.0,0.0" targetAnchor="85.0,71.0" dashed="true" superClass="_VCS44JbmEeylJu6pn3Oa7A" subClass="_VDvqYJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_RepL8JbmEeylJu6pn3Oa7A"/>
+    <bendpoints xmi:id="_cF2bMpbmEeylJu6pn3Oa7A" sourceY="-30" targetX="-600" targetY="86"/>
+    <bendpoints xmi:id="_cF2bM5bmEeylJu6pn3Oa7A" sourceX="600" sourceY="-30" targetY="86"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VDkEMJbmEeylJu6pn3Oa7A" sourceAnchor="234.0,0.0" targetAnchor="166.0,118.0" superClass="_VCwL4JbmEeylJu6pn3Oa7A" subClass="_VDvqYJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_RepzAJbmEeylJu6pn3Oa7A"/>
+    <bendpoints xmi:id="_cF2bNJbmEeylJu6pn3Oa7A" sourceY="-205" targetX="-278" targetY="43"/>
+    <bendpoints xmi:id="_cF2bNZbmEeylJu6pn3Oa7A" sourceX="278" sourceY="-205" targetY="43"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VEMWUJbmEeylJu6pn3Oa7A" sourceAnchor="251.0,0.0" targetAnchor="166.0,118.0" superClass="_VCwL4JbmEeylJu6pn3Oa7A" subClass="_VEkJwJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_RerBIJbmEeylJu6pn3Oa7A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VE_AgJbmEeylJu6pn3Oa7A" sourceAnchor="222.0,0.0" targetAnchor="85.0,71.0" dashed="true" superClass="_VCS44JbmEeylJu6pn3Oa7A" subClass="_VFiaIJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_ReroMJbmEeylJu6pn3Oa7A"/>
+    <bendpoints xmi:id="_cF10IJbmEeylJu6pn3Oa7A" sourceY="-36" targetX="254" targetY="86"/>
+    <bendpoints xmi:id="_cF10IZbmEeylJu6pn3Oa7A" sourceX="-254" sourceY="-36" targetY="86"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VFWz8JbmEeylJu6pn3Oa7A" sourceAnchor="257.0,0.0" targetAnchor="166.0,118.0" superClass="_VCwL4JbmEeylJu6pn3Oa7A" subClass="_VFiaIJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_ResPQJbmEeylJu6pn3Oa7A"/>
+    <bendpoints xmi:id="_cF2bMJbmEeylJu6pn3Oa7A" sourceY="-211" targetX="653" targetY="43"/>
+    <bendpoints xmi:id="_cF2bMZbmEeylJu6pn3Oa7A" sourceX="-653" sourceY="-211" targetY="43"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VB_98JbmEeylJu6pn3Oa7A" name="Cesto" associationsOut="_VB9hsJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_Rc1OEJbmEeylJu6pn3Oa7A"/>
+    <visualProperties xmi:id="_VB_98ZbmEeylJu6pn3Oa7A" position="896.0,81.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VB_98pbmEeylJu6pn3Oa7A" label="+"/>
+    <attributes xmi:id="_VB_985bmEeylJu6pn3Oa7A" name="totalItems">
+      <modelElement href="Ficha-4.uml#_RetdYJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VB_99JbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_99ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VB_99pbmEeylJu6pn3Oa7A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VB_995bmEeylJu6pn3Oa7A" defaultValue="100" name="limite">
+      <modelElement href="Ficha-4.uml#_ReuEcJbmEeylJu6pn3Oa7A"/>
+      <stereotypes xmi:id="_VB_9-JbmEeylJu6pn3Oa7A" name="LegacyStyledElement">
+        <modelElement href="Ficha-4.uml#_ReurgJbmEeylJu6pn3Oa7A"/>
+      </stereotypes>
+      <visibility xmi:id="_VB_9-ZbmEeylJu6pn3Oa7A" label="-"/>
+      <cardinality xmi:id="_VB_9-pbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VB_9-5bmEeylJu6pn3Oa7A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VB_9_JbmEeylJu6pn3Oa7A" name="listaCesto">
+      <modelElement href="Ficha-4.uml#_ReurgZbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VB_9_ZbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_9_pbmEeylJu6pn3Oa7A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_VB_9_5bmEeylJu6pn3Oa7A" name="Fruta">
+        <modelElement href="Ficha-4.uml#_Rc6GkJbmEeylJu6pn3Oa7A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VB_-AJbmEeylJu6pn3Oa7A" name="Cesto">
+      <modelElement href="Ficha-4.uml#_Rc2cMJbmEeylJu6pn3Oa7A"/>
+      <keywords xmi:id="_VB_-AZbmEeylJu6pn3Oa7A" keyword="create"/>
+      <visibility xmi:id="_VB_-ApbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_-A5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VB_-BJbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc2cM5bmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VB_-BZbmEeylJu6pn3Oa7A" name="Cesto">
+          <modelElement href="Ficha-4.uml#_Rc1OEJbmEeylJu6pn3Oa7A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VB_-BpbmEeylJu6pn3Oa7A" name="valorCesto">
+      <modelElement href="Ficha-4.uml#_Rc3DQJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VB_-B5bmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_-CJbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VB_-CZbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc3DQZbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VB_-CpbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VB_-C5bmEeylJu6pn3Oa7A" name="contaTipo">
+      <modelElement href="Ficha-4.uml#_Rc3DQpbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VB_-DJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_-DZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VB_-DpbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc3qUJbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VB_-D5bmEeylJu6pn3Oa7A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VB_-EJbmEeylJu6pn3Oa7A" name="tipo">
+        <modelElement href="Ficha-4.uml#_Rc3DQ5bmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VB_-EZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VB_-EpbmEeylJu6pn3Oa7A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VB_-E5bmEeylJu6pn3Oa7A" name="valorPorTipo">
+      <modelElement href="Ficha-4.uml#_Rc3qUZbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VB_-FJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_-FZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VB_-FpbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc3qU5bmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VB_-F5bmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VB_-GJbmEeylJu6pn3Oa7A" name="tipo">
+        <modelElement href="Ficha-4.uml#_Rc3qUpbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VB_-GZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VB_-GpbmEeylJu6pn3Oa7A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VB_-G5bmEeylJu6pn3Oa7A" name="addFruta">
+      <modelElement href="Ficha-4.uml#_Rek6gJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VB_-HJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VB_-HZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VB_-HpbmEeylJu6pn3Oa7A" name="aFruta">
+        <modelElement href="Ficha-4.uml#_Rek6gZbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VB_-H5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VB_-IJbmEeylJu6pn3Oa7A" name="Fruta">
+          <modelElement href="Ficha-4.uml#_Rc6GkJbmEeylJu6pn3Oa7A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_VCS44JbmEeylJu6pn3Oa7A" name="Descontavel" subclassedBy="_VDRJQJbmEeylJu6pn3Oa7A _VE_AgJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_Rc44cJbmEeylJu6pn3Oa7A"/>
+    <visualProperties xmi:id="_VCS44ZbmEeylJu6pn3Oa7A" position="792.0,288.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VCS44pbmEeylJu6pn3Oa7A" label="+"/>
+    <operations xmi:id="_VCS445bmEeylJu6pn3Oa7A" name="descontar">
+      <modelElement href="Ficha-4.uml#_Rc44cZbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VCS45JbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VCS45ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VCS45pbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc5fgJbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VCS455bmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VCwL4JbmEeylJu6pn3Oa7A" name="Fruta" abstractClass="true" associationsIn="_VB9hsJbmEeylJu6pn3Oa7A" subclassedBy="_VDkEMJbmEeylJu6pn3Oa7A _VEMWUJbmEeylJu6pn3Oa7A _VFWz8JbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_Rc6GkJbmEeylJu6pn3Oa7A"/>
+    <visualProperties xmi:id="_VCwL4ZbmEeylJu6pn3Oa7A" position="347.0,109.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VCwL4pbmEeylJu6pn3Oa7A" label="+"/>
+    <attributes xmi:id="_VCwL45bmEeylJu6pn3Oa7A" name="nome">
+      <modelElement href="Ficha-4.uml#_RevSkJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VCwL5JbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VCwL5ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VCwL5pbmEeylJu6pn3Oa7A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VCwL55bmEeylJu6pn3Oa7A" name="precoBase">
+      <modelElement href="Ficha-4.uml#_RevSkZbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VCwL6JbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VCwL6ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VCwL6pbmEeylJu6pn3Oa7A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VCwL65bmEeylJu6pn3Oa7A" name="Fruta">
+      <modelElement href="Ficha-4.uml#_Rc6toJbmEeylJu6pn3Oa7A"/>
+      <keywords xmi:id="_VCwL7JbmEeylJu6pn3Oa7A" keyword="create"/>
+      <visibility xmi:id="_VCwL7ZbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VCwL7pbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VCwL75bmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc7UspbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VCwL8JbmEeylJu6pn3Oa7A" name="Fruta">
+          <modelElement href="Ficha-4.uml#_Rc6GkJbmEeylJu6pn3Oa7A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VCwL8ZbmEeylJu6pn3Oa7A" name="aNome">
+        <modelElement href="Ficha-4.uml#_Rc6toZbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VCwL8pbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VCwL85bmEeylJu6pn3Oa7A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VCwL9JbmEeylJu6pn3Oa7A" name="aPrecoBase">
+        <modelElement href="Ficha-4.uml#_Rc6topbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VCwL9ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VCwL9pbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VCwL95bmEeylJu6pn3Oa7A" abstractOperation="true" name="pagar">
+      <modelElement href="Ficha-4.uml#_Rc7Us5bmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VCwL-JbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VCwL-ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VCwL-pbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc7UtJbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VCwL-5bmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VEkJwJbmEeylJu6pn3Oa7A" name="FrutaUnidade" generalizations="_VEMWUJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_RdCpcJbmEeylJu6pn3Oa7A"/>
+    <visualProperties xmi:id="_VEkJwZbmEeylJu6pn3Oa7A" position="262.0,300.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VEkJwpbmEeylJu6pn3Oa7A" label="+"/>
+    <attributes xmi:id="_VEkJw5bmEeylJu6pn3Oa7A" name="unidade">
+      <modelElement href="Ficha-4.uml#_Rev5oZbmEeylJu6pn3Oa7A"/>
+      <stereotypes xmi:id="_VEkJxJbmEeylJu6pn3Oa7A" name="LegacyStyledElement">
+        <modelElement href="Ficha-4.uml#_RewgsJbmEeylJu6pn3Oa7A"/>
+      </stereotypes>
+      <visibility xmi:id="_VEkJxZbmEeylJu6pn3Oa7A" label="-"/>
+      <cardinality xmi:id="_VEkJxpbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VEkJx5bmEeylJu6pn3Oa7A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VEkJyJbmEeylJu6pn3Oa7A" name="FrutaUnidade">
+      <modelElement href="Ficha-4.uml#_RdFFsJbmEeylJu6pn3Oa7A"/>
+      <keywords xmi:id="_VEkJyZbmEeylJu6pn3Oa7A" keyword="create"/>
+      <visibility xmi:id="_VEkJypbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VEkJy5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VEkJzJbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_RdG64JbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VEkJzZbmEeylJu6pn3Oa7A" name="FrutaUnidade">
+          <modelElement href="Ficha-4.uml#_RdCpcJbmEeylJu6pn3Oa7A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VEkJzpbmEeylJu6pn3Oa7A" name="aNome">
+        <modelElement href="Ficha-4.uml#_RdFswJbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VEkJz5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VEkJ0JbmEeylJu6pn3Oa7A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VEkJ0ZbmEeylJu6pn3Oa7A" name="aPrecoBase">
+        <modelElement href="Ficha-4.uml#_RdGT0JbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VEkJ0pbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VEkJ05bmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VEkJ1JbmEeylJu6pn3Oa7A" name="aUnidade">
+        <modelElement href="Ficha-4.uml#_RdGT0ZbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VEkJ1ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VEkJ1pbmEeylJu6pn3Oa7A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VEkJ15bmEeylJu6pn3Oa7A" name="pagar">
+      <modelElement href="Ficha-4.uml#_RdG64ZbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VEkJ2JbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VEkJ2ZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VEkJ2pbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_RdG64pbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VEkJ25bmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VFiaIJbmEeylJu6pn3Oa7A" name="FrutaVolume" generalizations="_VE_AgJbmEeylJu6pn3Oa7A _VFWz8JbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_RdHh8JbmEeylJu6pn3Oa7A"/>
+    <visualProperties xmi:id="_VFiaIZbmEeylJu6pn3Oa7A" position="909.0,481.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VFiaIpbmEeylJu6pn3Oa7A" label="+"/>
+    <attributes xmi:id="_VFiaI5bmEeylJu6pn3Oa7A" name="volume">
+      <modelElement href="Ficha-4.uml#_RewgsZbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VFiaJJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VFiaJZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VFiaJpbmEeylJu6pn3Oa7A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VFiaJ5bmEeylJu6pn3Oa7A" name="percentagemDesconto">
+      <modelElement href="Ficha-4.uml#_RewgspbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VFiaKJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VFiaKZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VFiaKpbmEeylJu6pn3Oa7A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VFiaK5bmEeylJu6pn3Oa7A" name="FrutaVolume">
+      <modelElement href="Ficha-4.uml#_RdIJAJbmEeylJu6pn3Oa7A"/>
+      <keywords xmi:id="_VFiaLJbmEeylJu6pn3Oa7A" keyword="create"/>
+      <visibility xmi:id="_VFiaLZbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VFiaLpbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VFiaL5bmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_RdIJBpbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VFiaMJbmEeylJu6pn3Oa7A" name="FrutaVolume">
+          <modelElement href="Ficha-4.uml#_RdHh8JbmEeylJu6pn3Oa7A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VFiaMZbmEeylJu6pn3Oa7A" name="aNome">
+        <modelElement href="Ficha-4.uml#_RdIJAZbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VFiaMpbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VFiaM5bmEeylJu6pn3Oa7A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VFiaNJbmEeylJu6pn3Oa7A" name="aPrecoBase">
+        <modelElement href="Ficha-4.uml#_RdIJApbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VFiaNZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VFiaNpbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VFiaN5bmEeylJu6pn3Oa7A" name="aVolume">
+        <modelElement href="Ficha-4.uml#_RdIJA5bmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VFiaOJbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VFiaOZbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VFiaOpbmEeylJu6pn3Oa7A" name="pagar">
+      <modelElement href="Ficha-4.uml#_RdIwEJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VFiaO5bmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VFiaPJbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VFiaPZbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_RdIwEZbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VFiaPpbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VFiaP5bmEeylJu6pn3Oa7A" name="descontar">
+      <modelElement href="Ficha-4.uml#_RdIwEpbmEeylJu6pn3Oa7A"/>
+      <stereotypes xmi:id="_VFiaQJbmEeylJu6pn3Oa7A" name="LegacyStyledElement">
+        <modelElement href="Ficha-4.uml#_RdIwFJbmEeylJu6pn3Oa7A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VFiaQZbmEeylJu6pn3Oa7A" name="Annotations">
+        <modelElement href="Ficha-4.uml#_RdJXIJbmEeylJu6pn3Oa7A"/>
+      </stereotypes>
+      <visibility xmi:id="_VFiaQpbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VFiaQ5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VFiaRJbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_RdIwE5bmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VFiaRZbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VDvqYJbmEeylJu6pn3Oa7A" name="FrutaPeso" generalizations="_VDRJQJbmEeylJu6pn3Oa7A _VDkEMJbmEeylJu6pn3Oa7A">
+    <modelElement href="Ficha-4.uml#_Rc8i0JbmEeylJu6pn3Oa7A"/>
+    <visualProperties xmi:id="_VDvqYZbmEeylJu6pn3Oa7A" position="1.0,475.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VDvqYpbmEeylJu6pn3Oa7A" label="+"/>
+    <attributes xmi:id="_VDvqY5bmEeylJu6pn3Oa7A" name="peso">
+      <modelElement href="Ficha-4.uml#_RevSkpbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VDvqZJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VDvqZZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VDvqZpbmEeylJu6pn3Oa7A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VDvqZ5bmEeylJu6pn3Oa7A" name="percentagemDesconto">
+      <modelElement href="Ficha-4.uml#_Rev5oJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VDvqaJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VDvqaZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <type xmi:id="_VDvqapbmEeylJu6pn3Oa7A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VDvqa5bmEeylJu6pn3Oa7A" name="FrutaPeso">
+      <modelElement href="Ficha-4.uml#_Rc9J4JbmEeylJu6pn3Oa7A"/>
+      <keywords xmi:id="_VDvqbJbmEeylJu6pn3Oa7A" keyword="create"/>
+      <visibility xmi:id="_VDwRcJbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VDwRcZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VDwRcpbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc-YA5bmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VDwRc5bmEeylJu6pn3Oa7A" name="FrutaPeso">
+          <modelElement href="Ficha-4.uml#_Rc8i0JbmEeylJu6pn3Oa7A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VDwRdJbmEeylJu6pn3Oa7A" name="aNome">
+        <modelElement href="Ficha-4.uml#_Rc9J4ZbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VDwRdZbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VDwRdpbmEeylJu6pn3Oa7A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VDwRd5bmEeylJu6pn3Oa7A" name="aPrecoBase">
+        <modelElement href="Ficha-4.uml#_Rc9w8JbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VDwReJbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VDwReZbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VDwRepbmEeylJu6pn3Oa7A" name="aPeso">
+        <modelElement href="Ficha-4.uml#_Rc-YAJbmEeylJu6pn3Oa7A"/>
+        <cardinality xmi:id="_VDwRe5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+        <type xmi:id="_VDwRfJbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VDwRfZbmEeylJu6pn3Oa7A" name="pagar">
+      <modelElement href="Ficha-4.uml#_Rc-YBJbmEeylJu6pn3Oa7A"/>
+      <visibility xmi:id="_VDwRfpbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VDwRf5bmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VDwRgJbmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc-_EJbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VDwRgZbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VDwRgpbmEeylJu6pn3Oa7A" name="descontar">
+      <modelElement href="Ficha-4.uml#_Rc-_EZbmEeylJu6pn3Oa7A"/>
+      <stereotypes xmi:id="_VDwRg5bmEeylJu6pn3Oa7A" name="LegacyStyledElement">
+        <modelElement href="Ficha-4.uml#_Rc_mIJbmEeylJu6pn3Oa7A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VDwRhJbmEeylJu6pn3Oa7A" name="Annotations">
+        <modelElement href="Ficha-4.uml#_RdANMJbmEeylJu6pn3Oa7A"/>
+      </stereotypes>
+      <visibility xmi:id="_VDwRhZbmEeylJu6pn3Oa7A" label="+"/>
+      <cardinality xmi:id="_VDwRhpbmEeylJu6pn3Oa7A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VDwRh5bmEeylJu6pn3Oa7A">
+        <modelElement href="Ficha-4.uml#_Rc-_EpbmEeylJu6pn3Oa7A"/>
+        <type xmi:id="_VDwRiJbmEeylJu6pn3Oa7A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
